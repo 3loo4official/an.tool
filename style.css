@@ -51,7 +51,7 @@ header {
 }
 
 section {
-    padding: 100px 200px;
+    text-align: center
 }
 
 .main {
@@ -59,9 +59,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/logo.png) no-repeat;
     background-size: auto;
-    background-position: right center;
     background-attachment: scroll;
 }
 
@@ -77,6 +75,7 @@ section {
     color: #4e9eff;
     font-size: 3em;
     font-weight: 600;
+    text-align: center;
 }
 
 .main h4 {
@@ -156,6 +155,7 @@ section {
 }
 
 .info button {
+    margin: 10px;
     color: #fff;
     background-color: #3a6cf4;
     text-decoration: none;
@@ -165,11 +165,12 @@ section {
     letter-spacing: 1px;
     border-radius: 20px;
     border-color: white;
-    width: 110px;
+    width: 180px;
     height: 50px;
     transition: 0.7s ease;
 
 }
+
 
 .info button:hover {
     background-color: #0a49f6;
